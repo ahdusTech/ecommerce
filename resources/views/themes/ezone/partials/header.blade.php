@@ -162,7 +162,7 @@
 	<div class="header-bottom-furniture wrapper-padding-2 border-top-3">
 		<div class="container-fluid">
 			<div class="furniture-bottom-wrapper">
-				<div class="furniture-login">
+				{{--  <div class="furniture-login">
 					<ul>
 						@guest
 							<li>Get Access: <a href="{{ url('login') }}">Login</a></li>
@@ -180,7 +180,7 @@
 							</form>
 						@endguest
 					</ul>
-				</div>
+				</div>  --}}
 				<div class="furniture-search">
 					<form action="{{ url('products') }}" method="GET">
 						<input placeholder="I am Searching for . . ." type="text" name="q" value="{{ isset($q) ? $q : null }}">
@@ -189,11 +189,30 @@
 						</button>
 					</form>
 				</div>
-				<div class="furniture-wishlist">
+                <div class="furniture-login">
 					<ul>
-						<li><a href="{{ url('favorites') }}"><i class="ti-heart"></i> Favorites</a></li>
+						@guest
+							<li><a href="{{ url('login') }}">Login</a></li>
+							<li><a href="{{ url('register') }}">Register</a></li>
+						@else
+							<li>Hello: <a href="{{ url('profile') }}">{{ Auth::user()->first_name }}</a></li>
+							<a href="{{ route('logout') }}"
+								onclick="event.preventDefault();
+											document.getElementById('logout-form').submit();">
+								{{ __('Logout') }}
+							</a>
+
+							<form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+								@csrf
+							</form>
+						@endguest
+					</ul>
+
+					<ul>
+						<li> <i class="ti-heart"></i>&nbsp; <a href="{{ url('favorites') }}"> Favorites</a></li>
 					</ul>
 				</div>
+
 			</div>
 		</div>
 	</div>
