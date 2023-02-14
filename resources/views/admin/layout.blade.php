@@ -12,7 +12,7 @@
 		<link href="https://cdn.materialdesignicons.com/3.0.39/css/materialdesignicons.min.css" rel="stylesheet" />
 		<!-- PLUGINS CSS STYLE -->
 		<link href="{{ URL::asset('admin/assets/plugins/nprogress/nprogress.css') }}" rel="stylesheet" />
-		<!-- No Extra plugin used -->  
+		<!-- No Extra plugin used -->
 		<link href="{{ URL::asset('admin/assets/plugins/jvectormap/jquery-jvectormap-2.0.3.css') }}" rel="stylesheet" />
 		<link href="{{ URL::asset('admin/assets/plugins/daterangepicker/daterangepicker.css') }}" rel="stylesheet" />
 		<link href="{{ URL::asset('admin/assets/plugins/toastr/toastr.min.css') }}" rel="stylesheet" />
@@ -32,16 +32,16 @@
 		<script src="{{ URL::asset('admin/assets/plugins/nprogress/nprogress.js') }}"></script>
 	</head>
 	<body class="header-fixed sidebar-fixed sidebar-dark header-light" id="body">
-	
+
 	<script>
 		NProgress.configure({ showSpinner: false });
 		NProgress.start();
 	</script>
-	<div class="mobile-sticky-body-overlay"></div>  
+	<div class="mobile-sticky-body-overlay"></div>
 	<div id="toaster"></div>
 	<div class="wrapper">
 		<!-- Github Link -->
-		<a href="https://github.com/tafcoder/sleek-dashboard" class="github-link">
+		{{--  <a href="https://github.com/tafcoder/sleek-dashboard" class="github-link">
 		<svg width="70" height="70" viewBox="0 0 250 250" aria-hidden="true">
 			<defs>
 			<linearGradient id="grad1" x1="0%" y1="75%" x2="100%" y2="0%">
@@ -52,8 +52,8 @@
 			<path d="M 0,0 L115,115 L115,115 L142,142 L250,250 L250,0 Z" fill="url(#grad1)"></path>
 		</svg>
 		<i class="mdi mdi-github-circle"></i>
-		</a>
-		
+		</a>  --}}
+
 		@include('admin.partials.sidebar')
 
 		<div class="page-wrapper">
@@ -100,7 +100,7 @@
 
 		function showHideConfigurableAttributes() {
 			var productType = $(".product-type").val();
-				
+
 			if (productType == 'configurable') {
 				$(".configurable-attributes").show();
 			} else {
