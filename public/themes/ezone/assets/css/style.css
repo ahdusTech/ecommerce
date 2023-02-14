@@ -8250,6 +8250,9 @@ a.bundle-btn {
     text-transform: uppercase;
     cursor: pointer;
 }
+footer.footer-area {
+        background-color: darkgrey;
+    }
 .single-contact-info {
     display: flex;
     margin-bottom: 15px;
