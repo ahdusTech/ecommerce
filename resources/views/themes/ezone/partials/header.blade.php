@@ -26,7 +26,7 @@
 									<li><a href="index-sports.html">sports</a></li>
 								</ul>
 							</li>
-							<li><a href="#">pages</a>
+							{{--  <li><a href="#">pages</a>
 								<ul class="single-dropdown">
 									<li><a href="about-us.html">about us</a></li>
 									<li><a href="menu-list.html">menu list</a></li>
@@ -37,7 +37,7 @@
 									<li><a href="wishlist.html">wishlist</a></li>
 									<li><a href="contact.html">contact</a></li>
 								</ul>
-							</li>
+							</li>  --}}
 							<li><a href="{{ url('products') }}">shop</a>
 								<div class="category-menu-dropdown shop-menu">
 									<div class="category-dropdown-style category-common2 mb-30">
@@ -110,7 +110,7 @@
 										<li><a href="index-sports.html">sports</a></li>
 									</ul>
 								</li>
-								<li><a href="#">pages</a>
+								{{--  <li><a href="#">pages</a>
 									<ul>
 										<li><a href="about-us.html">about us</a></li>
 										<li><a href="menu-list.html">menu list</a></li>
@@ -121,7 +121,7 @@
 										<li><a href="wishlist.html">wishlist</a></li>
 										<li><a href="contact.html">contact</a></li>
 									</ul>
-								</li>
+								</li>  --}}
 								<li><a href="#">shop</a>
 									<ul>
 										<li><a href="shop-grid-2-col.html"> grid 2 column</a></li>
@@ -153,7 +153,7 @@
 								</li>
 								<li><a href="contact.html"> Contact  </a></li>
 							</ul>
-						</nav>							
+						</nav>
 					</div>
 				</div>
 			</div>
