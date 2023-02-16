@@ -170,7 +170,6 @@
 							</li>
 							<li><a href="contact.html">Health Care</a></li>
 							<li><a href="contact.html">Mother & Baby</a></li>
-							<li><a href="contact.html">Weleda</a></li>
 							<li><a href="contact.html">Magazine</a></li>
 							<li><a href="contact.html">offers</a></li>
 						</ul>
