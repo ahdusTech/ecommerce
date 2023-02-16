@@ -22,7 +22,7 @@
                             </thead>
                             <tbody>
                                 @forelse ($products as $product)
-                                    <tr>    
+                                    <tr>
                                         <td>{{ $product->id }}</td>
                                         <td>{{ $product->sku }}</td>
                                         <td>{{ $product->type }}</td>
@@ -31,7 +31,7 @@
                                         <td>{{ $product->statusLabel() }}</td>
                                         <td>
                                             <a href="{{ url('admin/products/'. $product->id .'/edit') }}" class="btn btn-warning btn-sm">edit</a>
-                                            
+
                                             @can('delete_products')
                                                 {!! Form::open(['url' => 'admin/products/'. $product->id, 'class' => 'delete', 'style' => 'display:inline-block']) !!}
                                                 {!! Form::hidden('_method', 'DELETE') !!}

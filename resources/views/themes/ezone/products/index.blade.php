@@ -1,7 +1,7 @@
 @extends('themes.ezone.layout')
 
 @section('content')
-	<div class="breadcrumb-area pt-205 breadcrumb-padding pb-210"
+	{{--  <div class="breadcrumb-area pt-205 breadcrumb-padding pb-210"
     style="background-image: url({{ asset('https://images.pexels.com/photos/3769747/pexels-photo-3769747.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') }});
     background-position-y: center;
     background-size: cover;">
@@ -14,7 +14,7 @@
 				</ul>
 			</div>
 		</div>
-	</div>
+	</div>  --}}
 	<div class="shop-page-wrapper shop-page-padding ptb-100">
 		<div class="container-fluid">
 			<div class="row">
