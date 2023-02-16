@@ -172,7 +172,7 @@
         margin: 9px 0 5px 70px;
     }
     .wrapper-padding-2 .container-fluid {
-        padding: 0 70px;
+        padding: 30px 70px 0 70px;
     }
     .handicraft-banner-wrapper {
         margin: 0 0px 0 0;
@@ -4077,7 +4077,7 @@
     }
     .furniture-login, .furniture-wishlist {
         display: flex;
-        justify-content: center;
+        justify-content: end;
     }
     .furniture-search {
         border-bottom: 1px solid #f1f1f1;

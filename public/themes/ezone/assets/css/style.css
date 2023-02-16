@@ -4383,7 +4383,7 @@ a.icon-cart-furniture span.green {
     display: block;
 }
 .menu-style-2.furniture-menu nav > ul > li {
-    margin: 0 30px;
+    /* margin: 0 30px; */
 }
 .menu-style-2.furniture-menu nav > ul > li > a {
     padding: 38px 0;
@@ -4483,10 +4483,14 @@ a.icon-cart-furniture span.green {
 .furniture-wishlist li:first-child {
     margin-left: 0px;
 }
+.furniture-search {
+    padding: 30px;
+}
 .furniture-login,
 .furniture-wishlist {
     align-items: center;
     display: flex;
+    justify-content: end;
 }
 .furniture-login ul li a:hover,
 .furniture-wishlist li a:hover {

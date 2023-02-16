@@ -3,56 +3,43 @@
     <div class="footer-top-area pt-70 pb-35 wrapper-padding-5">
         <div class="container-fluid">
             <div class="widget-wrapper">
-                <div class="col-3 mb-30">
-                    <a href="#"><img src="http://127.0.0.1:8000/themes/ezone/assets/img/logo/2.png" alt=""></a>
-                    <div class="footer-about-2">
-                        <p>There are many variations of passages of Lorem Ipsum <br>the majority have suffered alteration in some form, by <br> injected humour</p>
-                    </div>
-                </div>
-                <div class="col-1 mb-30">
-                    <h3 class="footer-widget-title-5">Pages</h3>
-                    <div class="footer-menu-5">
-                        <ul>
+
+                <div class="col-6 mb-30">
+                    <h4 class="footer-widget-title-5">Support</h4>
+                    <div class="footer-menu-5 row">
+                        <ul class="col">
                             <li><a href="about-us.html">about us</a></li>
                             <li><a href="menu-list.html">menu list</a></li>
                             <li><a href="login.html">login</a></li>
                             <li><a href="register.html">register</a></li>
-                            <li><a href="cart.html">cart page</a></li>
-                            <li><a href="checkout.html">checkout</a></li>
-                            <li><a href="wishlist.html">wishlist</a></li>
-                            <li><a href="contact.html">contact</a></li>
+
                         </ul>
+
+                        <ul class="col">
+                            <li><a href="cart.html">My account</a></li>
+                            <li><a href="checkout.html">Careers</a></li>
+                            <li><a href="wishlist.html">Terms & Conditions</a></li>
+                            <li><a href="contact.html">Customer Service</a></li>
+                        </ul>
+
+                        <ul class="col">
+                            <li><a href="my-account.html">Contact US</a></li>
+                            <li><a href="shop.html">Delivery</a></li>
+                            <li><a href="product-details.html">Catelogue</a></li>
+                            <li><a href="shop.html">shop</a></li>
+                        </ul>
+                        <ul class="col">
+                            <li><a href="my-account.html">my account</a></li>
+                            <li><a href="shop.html">shop</a></li>
+                            <li><a href="product-details.html">product details</a></li>
+                            <li><a href="shop.html">shop</a></li>
+                        </ul>
+
+
+
                     </div>
                 </div>
-                <div class="col-4 mb-30">
-                    <h3 class="col footer-widget-title-5">Contact Info</h3>
-                    <div class="col footer-info-wrapper-3">
-                        <div class="footer-address-furniture">
-                            <div class="footer-info-icon3">
-                                <span>Address: </span>
-                            </div>
-                            <div class="footer-info-content3">
-                                <p>66 Sipu road Rampura Banasree <br>USA- 10800</p>
-                            </div>
-                        </div>
-                        <div class="footer-address-furniture">
-                            <div class="footer-info-icon3">
-                                <span>Phone: </span>
-                            </div>
-                            <div class="footer-info-content3">
-                                <p>+8801 (33) 515609735 <br>+8801 (66) 223352333</p>
-                            </div>
-                        </div>
-                        <div class="footer-address-furniture">
-                            <div class="footer-info-icon3">
-                                <span>E-mail: </span>
-                            </div>
-                            <div class="footer-info-content3">
-                                <p><a href="#"> email@domain.com</a> <br><a href="#"> domain@mail.info</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
 
                 <div class="col-4 footer-widget mb-30">
                     <h3 class="footer-widget-title-5">Newsletter</h3>
