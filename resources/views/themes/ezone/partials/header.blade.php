@@ -94,8 +94,14 @@
 
 				<div class="menu-style-2 furniture-menu menu-hover">
 					<nav>
+                        <ul>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="{{ url('products') }}">Shop</a></li>
+                            <li><a href="{{ url('about') }}">About</a></li>
+                            <li><a href="{{ url('contact') }}">Contact</a></li>
+                        </ul>
 						<ul>
-							<li><a href="/">Skin Food</a>
+							<li><a href="#">Skin Food</a>
 								<ul class="single-dropdown">
 									<li><a href="index.html">Fashion</a></li>
 									<li><a href="index-fashion-2.html">Fashion style 2</a></li>
