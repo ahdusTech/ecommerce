@@ -96,9 +96,8 @@
 					<nav>
                         <ul>
                             <li><a href="/">Home</a></li>
-                            <li><a href="{{ url('products') }}">Shop</a></li>
-                            <li><a href="{{ url('about') }}">About</a></li>
-                            <li><a href="{{ url('contact') }}">Contact</a></li>
+
+
                         </ul>
 						<ul>
 							<li><a href="#">Skin Food</a>
