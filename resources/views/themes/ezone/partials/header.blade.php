@@ -97,8 +97,7 @@
                         <ul>
                             <li><a href="/">Home</a></li>
 
-                        </ul>
-						<ul>
+
 							<li><a href="#">Skin Food</a>
 								<ul class="single-dropdown">
 									<li><a href="index.html">Fashion</a></li>
