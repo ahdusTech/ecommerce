@@ -208,5 +208,6 @@
 			</div>
 		</div>
 	</div>
+    <hr class="hr">
 </header>
 <!-- header end -->

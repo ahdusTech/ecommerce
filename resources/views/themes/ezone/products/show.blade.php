@@ -12,7 +12,6 @@
 			</div>
 		</div>
 	</div>  --}}
-    <hr class="mt-0">
 	<div class="product-details ptb-100 pb-90">
 		<div class="container">
 			<div class="row">
