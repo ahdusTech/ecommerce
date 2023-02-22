@@ -1,7 +1,7 @@
 @extends('themes.ezone.layout')
 
 @section('content')
-	<div class="breadcrumb-area pt-205 pb-210" style="background-image: url({{ asset('themes/ezone/assets/img/bg/breadcrumb.jpg') }})">
+	{{--  <div class="breadcrumb-area pt-205 pb-210" style="background-image: url({{ asset('themes/ezone/assets/img/bg/breadcrumb.jpg') }})">
 		<div class="container">
 			<div class="breadcrumb-content text-center">
 				<h2>product details</h2>
@@ -11,7 +11,8 @@
 				</ul>
 			</div>
 		</div>
-	</div>
+	</div>  --}}
+    <hr class="mt-0">
 	<div class="product-details ptb-100 pb-90">
 		<div class="container">
 			<div class="row">

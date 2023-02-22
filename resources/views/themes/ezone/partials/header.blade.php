@@ -97,22 +97,6 @@
                         <ul>
                             <li><a href="/">Home</a></li>
 
-
-							<li><a href="#">Skin Food</a>
-								<ul class="single-dropdown">
-									<li><a href="index.html">Fashion</a></li>
-									<li><a href="index-fashion-2.html">Fashion style 2</a></li>
-									<li><a href="index-fruits.html">fruits</a></li>
-									<li><a href="index-book.html">book</a></li>
-									<li><a href="index-electronics.html">electronics</a></li>
-									<li><a href="index-electronics-2.html">electronics style 2</a></li>
-									<li><a href="index-food.html">food & drink</a></li>
-									<li><a href="index-furniture.html">furniture</a></li>
-									<li><a href="index-handicraft.html">handicraft</a></li>
-									<li><a target="_blank" href="index-smart-watch.html">smart watch</a></li>
-									<li><a href="index-sports.html">sports</a></li>
-								</ul>
-							</li>
 							{{--  <li><a href="#">pages</a>
 								<ul class="single-dropdown">
 									<li><a href="about-us.html">about us</a></li>
@@ -125,7 +109,7 @@
 									<li><a href="contact.html">contact</a></li>
 								</ul>
 							</li>  --}}
-							<li><a href="{{ url('products') }}">Face Care</a>
+							<li><a href="{{ url('products') }}">Shop</a>
 								<div class="category-menu-dropdown shop-menu">
 									<div class="category-dropdown-style category-common2 mb-30">
 										<h4 class="categories-subtitle"> shop layout</h4>
@@ -141,38 +125,13 @@
 											<li><a href="wishlist.html">wishlist</a></li>
 										</ul>
 									</div>
-									<div class="category-dropdown-style category-common2 mb-30">
-										<h4 class="categories-subtitle"> Body Care </h4>
-										<ul>
-											<li><a href="product-details.html">tab style 1</a></li>
-											<li><a href="product-details-2.html">tab style 2</a></li>
-											<li><a href="product-details-3.html"> tab style 3</a></li>
-											<li><a href="product-details-4.html">sticky style</a></li>
-											<li><a href="product-details-5.html">sticky style 2</a></li>
-											<li><a href="product-details-6.html">gallery style</a></li>
-											<li><a href="product-details-7.html">gallery style 2</a></li>
-											<li><a href="product-details-8.html">fixed image style</a></li>
-											<li><a href="product-details-9.html">fixed image style 2</a></li>
-										</ul>
-									</div>
-									<div class="mega-banner-img">
+									{{--  <div class="mega-banner-img">
 										<a href="single-product.html">
 											<img src="{{ asset('themes/ezone/assets/img/banner/18.jpg') }}" alt="">
 										</a>
-									</div>
+									</div>  --}}
 								</div>
 							</li>
-							<li><a href="blog.html">Body Care</a>
-								<ul class="single-dropdown">
-									<li><a href="blog.html">blog 3 colunm</a></li>
-									<li><a href="blog-2-col.html">blog 2 colunm</a></li>
-									<li><a href="blog-sidebar.html">blog sidebar</a></li>
-									<li><a href="blog-details.html">blog details</a></li>
-									<li><a href="blog-details-sidebar.html">blog details 2</a></li>
-								</ul>
-							</li>
-							<li><a href="contact.html">Health Care</a></li>
-							<li><a href="contact.html">Mother & Baby</a></li>
 							<li><a href="contact.html">Magazine</a></li>
 							<li><a href="contact.html">offers</a></li>
 						</ul>
